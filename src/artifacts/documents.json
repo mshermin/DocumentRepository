@@ -1,0 +1,73 @@
+{
+  "catagory": [
+    {
+      "Id": 1025,
+      "Title": "Local Setup"
+    },
+    {
+      "Id": 4587,
+      "Title": "Infrastructre"
+    },
+    {
+      "Id": 7854,
+      "Title": "Front End Development"
+    },
+    {
+      "Id": 7741,
+      "Title": "Database"
+    }
+  ],
+  "articles": [
+    {
+      "Id": 3,
+      "Title": "Setting up vuejs",
+      "CatagoryId": 1025,
+      "AuthorName": "Aristotle",
+      "AuthorId": "2",
+      "EditedByName": null,
+      "EditedById": null,
+      "HtmlContent": "npm install vue <br/> npm install -g vue-cli",
+      "DateCreated": "2019-05-25",
+      "DateUpdated": null
+    },
+    {
+      "Id": 1,
+      "Title": "Technology stack",
+      "CatagoryId": 1025,
+      "AuthorName": "Pluto",
+      "AuthorId": "3",
+      "EditedByName": null,
+      "EditedById": null,
+      "HtmlContent": "MongoDB | NodeJS | Express | VueJs",
+      "DateCreated": "2019-03-18",
+      "DateUpdated": null
+    },
+    {
+      "Id": 5,
+      "Title": "Setting Mongodb",
+      "CatagoryId": 7741,
+      "AuthorName": "Aristotle",
+      "AuthorId": "2",
+      "EditedByName": null,
+      "EditedById": null,
+      "HtmlContent": "<p>Community server from mongodb.com</p><p>Go to the installed directory</p><p>run \\.mongd in command line</p>",
+      "DateCreated": "2019-04-20",
+      "DateUpdated": null
+    },
+    {
+      "Id": 10,
+      "Title": "communicating among sibling components",
+      "CatagoryId": 7854,
+      "AuthorName": "Mars",
+      "AuthorId": "5",
+      "EditedByName": null,
+      "EditedById": null,
+      "HtmlContent": "custom event or event bus or always always VUEX",
+      "DateCreated": "2019-10-25",
+      "DateUpdated": null
+    }
+  ],
+  "DocumentCount": 5,
+  "PAGESIZE": 10,
+  "PAGE": 1
+}
