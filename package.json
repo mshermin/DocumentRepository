@@ -5,28 +5,49 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "jest"
   },
   "dependencies": {
+    "babel-jest": "^24.9.0",
     "bootstrap": "^4.4.1",
     "core-js": "^3.4.3",
+    "jest": "^24.9.0",
+    "jest-serializer-vue": "^2.0.2",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.0",
     "popper.js": "^1.16.0",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
+    "vue-jest": "^3.0.5",
     "vue-router": "^3.1.3",
     "vuex": "^3.1.2"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    }
+  },
   "devDependencies": {
+    "@babel/core": "^7.7.7",
     "@vue/cli-plugin-babel": "^4.1.0",
     "@vue/cli-plugin-eslint": "^4.1.0",
     "@vue/cli-plugin-router": "^4.1.0",
     "@vue/cli-plugin-vuex": "^4.1.0",
     "@vue/cli-service": "^4.1.0",
+    "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   }
 }
