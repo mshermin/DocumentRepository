@@ -16,8 +16,7 @@
 export default {
   name: "ArticleList",
   props: {
-    doclist: Array,
-    selectedPart: Number
+    doclist: Array
   },
   data() {
     return {
